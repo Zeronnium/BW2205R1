@@ -1,0 +1,115 @@
+html, body{
+ width: 100%;
+ height: 100%;
+ padding: 0;
+ margin: 0;   
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: #5E8FB5;
+ font-size: 15px;
+ box-sizing: border-box;
+}
+header{
+  height: 20%;
+}
+
+header img{
+    height: 70%;
+    margin: 20px;
+}
+header button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #5E8FB5;
+    background-color: white;
+    border: 1px solid #5E8FB5;
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 35px;
+}
+header ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+header ul li:hover{
+    color: orange;
+    font-weight: 800;
+}
+.banner{
+    width: 100%;
+    height: 70%;
+    border: none;
+}
+.intro{
+    background-color: whitesmoke;
+    width: 60%;
+    height: 70%;
+    text-align: center;
+    padding: 50px 20%;
+    line-height: 25px;
+}
+.intro button, .welcome button{
+    height: 50px;
+    padding: 5px 35px;
+    color: #5E8FB5;
+    background-color: white;
+    border: 1px solid #5E8FB5;
+}
+
+button:hover{
+    color: orange;
+    border-color: orange;
+    padding-left: 90px;
+    padding-right: 90px;
+    transition-delay: 2s;
+    transition: 2s;
+}
+
+.welcome{
+    background-color: #e1eff4;
+    padding: 40px 30px;
+    height: 2150px;
+}
+.welcome > h2{
+    text-align: center;
+}
+.welcome::first-letter{
+    font-size: 45px;
+
+    
+}
+
+.house-inttro{
+    width: 47%;
+    height: 650px;
+    background-color: white;
+    float: left;
+    margin-bottom: 35px;
+    margin-right: 35px;
+}
+
+.house-inttro:nth-child(4),.house-inttro:nth-child(5),.house-inttro:nth-child(6){
+    width: 30%;
+    height: 400px;
+}
+
+.house-inttro:nth-child(4) img,.house-inttro:nth-child(5) img,.house-inttro:nth-child(6) img{
+    height: 75%;
+}
+
+.house-inttro img{
+    width: 100%;
+    height: 450px;
+}
+
+.house-inttro p{
+    color: darkgrey;
+}
